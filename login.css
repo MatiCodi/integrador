@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gluten', cursive;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gluten';
+    margin: 0;
+    background: url(/assets/latte-art-blog-cafe-removebg-preview.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formulario{
+    background: rgba(0, 0, 0, 0.178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    backdrop-filter: blur(2.5px);
+}
+
+
+.input-contenedor{
+    margin: 20px;
+    width: 70%;
+}
+
+.input-contenedor input{
+    padding: 2px;
+    width: 85%;
+}
+
+.input-contenedor i{
+    color:rgb(191, 2, 2);
+}
+
+.button{
+    border: none;
+    width: 40%;
+    color:rgb(191, 2, 2);
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.178);
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background:burlywood;
+}
+
+.formulario p{
+    text-align: center;
+    color: rgb(191, 2, 2);
+    font-size: 15px;
+    padding: 25px;
+}
+.link{
+    text-decoration: none;
+    color:rgb(191, 2, 2);
+    transition: all .3s;
+}
+.link:hover{
+     color:black;
+}
+
+.logo img {
+    width: 120%;
+}
+
+.remember-me {
+    color: black;
+    margin: 20px;
+}
+
+
+
+
+
+/* register */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gluten';
+    margin: 0;
+    background: url(/assets/latte-art-fondo2-removebg-preview.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formulario-2{
+    background: rgba(0, 0, 0, 0.178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    backdrop-filter: blur(2.5px);
+}
+
+
+.input-contenedor-2{
+    margin: 10px;
+    width: 70%;
+}
+
+.input-contenedor-2 input{
+    padding: 5px;
+    width: 85%;
+}
+
+.input-contenedor-2 i{
+    color:rgb(191, 2, 2);
+}
+
+.button-1{
+    border: none;
+    width: 40%;
+    color:rgb(191, 2, 2);
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.178);
+    padding: 15px 25px;
+    margin: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.button-1:hover{
+    background:burlywood;
+}
+
+.formulario-2 p{
+    text-align: center;
+    color: rgb(191, 2, 2);
+    font-size: 15px;
+    padding:-15px;
+}
+.link-1{
+    text-decoration: none;
+    color:rgb(191, 2, 2);
+    transition: all .3s;
+}
+.link-1:hover{
+     color:burlywood;
+}
+
+.logo-2 img {
+    width: 120%;
+}
+
+.remember-me-2 {
+    color: black;
+    margin: 20px;
+}
